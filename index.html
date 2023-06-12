@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Homepage</title>
+    <link href=styling.css rel=stylesheet type=text/css>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <h1>Welcome</h1>
+
+    <!-- links to other pages of the site -->
+    <a class="navigation_tab" href="./index.html">
+        Home
+    </a>
+    <a class="navigation_tab" href="./2nd-page.html">
+        My Favourite Anime
+    </a>
+    <a class="navigation_tab" href="./3rd-page.html">
+        MAL
+    </a>
+    <a class="navigation_tab" href="./4th-page.html">
+        Subscribe
+    </a>
+    <a class="navigation_tab" href="./5th-page.html">
+        Saved For Later
+    </a>
+
+    <div id=main-container>
+        <div style="width: 900px;" class=secondary_div>
+            <p>This is a website dedicated to my strong liking for anime. I've been a fan of anime since
+                I was about 14 years old. Though, the very first anime I had actually seen as a child were
+                <em>Dragon Ball Z</em> and <em>Naruto</em>, I only came to know about the style of animation
+                after watching <em>Akame ga Kill</em>. As a child <em>Naruto</em> and
+                <em>Dragon Ball</em> were just other cartoons to me.
+            </p>
+
+            <!-- anime posters -->
+            <div style="justify-content: center;" id=poster-container>
+                <figure>
+                    <img class=anime_poster alt="akame ga kill poster"
+                        src=./my-images/71qkeSI1cnL._AC_UF894,1000_QL80_.jpg>
+                    <figcaption style="text-align: center;">My first anime: Akame ga Kill!</figcaption>
+                </figure>
+                <figure>
+                    <img class=anime_poster alt="naruto poster" src=./my-images/p9161972_b_v8_aa.jpg>
+                    <figcaption style="text-align: center;">Naruto</figcaption>
+                </figure>
+                <figure>
+                    <img class=anime_poster alt="dragon ball z poster" src=./my-images/81LNW8Rj4EL.jpg>
+                    <figcaption style="text-align: center;">Dragon Ball Z</figcaption>
+                </figure>
+            </div>
+
+        </div>
+
+    </div>
+
+    <img id="peace-sign-luffy" alt="luffy doing the peace sign" src=./my-images/one-piece-luffy-transparent-814x998.png>
+    <script src="./saveForLater.js"></script>
+</body>
+
+</html>
